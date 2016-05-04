@@ -1,0 +1,15 @@
+C:\Users\student\Documents\GitHub\Windows Form - Day3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\student\Documents\GitHub\Windows Form - Day3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\Windows Form - Day3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\student\Documents\GitHub\Windows Form - Day3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\student\Documents\GitHub\Windows Form - Day3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\student\Documents\GitHub\Windows Form - Day3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Swati Database.mdf
+C:\Users\student\Documents\GitHub\Windows Form - Day3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Swati Database_log.ldf
+C:\Users\student\Documents\GitHub\Windows Form - Day3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\student\Documents\GitHub\Windows Form - Day3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\student\Documents\GitHub\Windows Form - Day3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.dll
+C:\Users\student\Documents\GitHub\Windows Form - Day3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\student\Documents\GitHub\Windows Form - Day3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.xml
+C:\Users\student\Documents\GitHub\Windows Form - Day3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\student\Documents\GitHub\Windows Form - Day3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\student\Documents\GitHub\Windows Form - Day3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

@@ -1,0 +1,6 @@
+C:\Users\student\Documents\GitHub\C#\Carsales\Carsales\bin\Debug\Carsales.exe.config
+C:\Users\student\Documents\GitHub\C#\Carsales\Carsales\obj\Debug\Carsales.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\C#\Carsales\Carsales\bin\Debug\Carsales.exe
+C:\Users\student\Documents\GitHub\C#\Carsales\Carsales\bin\Debug\Carsales.pdb
+C:\Users\student\Documents\GitHub\C#\Carsales\Carsales\obj\Debug\Carsales.exe
+C:\Users\student\Documents\GitHub\C#\Carsales\Carsales\obj\Debug\Carsales.pdb

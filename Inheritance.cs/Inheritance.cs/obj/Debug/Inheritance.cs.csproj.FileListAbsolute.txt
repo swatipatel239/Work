@@ -1,0 +1,6 @@
+C:\Users\student\Documents\GitHub\C#\Inheritance.cs\Inheritance.cs\bin\Debug\Inheritance.cs.exe.config
+C:\Users\student\Documents\GitHub\C#\Inheritance.cs\Inheritance.cs\bin\Debug\Inheritance.cs.exe
+C:\Users\student\Documents\GitHub\C#\Inheritance.cs\Inheritance.cs\bin\Debug\Inheritance.cs.pdb
+C:\Users\student\Documents\GitHub\C#\Inheritance.cs\Inheritance.cs\obj\Debug\Inheritance.cs.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\C#\Inheritance.cs\Inheritance.cs\obj\Debug\Inheritance.cs.exe
+C:\Users\student\Documents\GitHub\C#\Inheritance.cs\Inheritance.cs\obj\Debug\Inheritance.cs.pdb

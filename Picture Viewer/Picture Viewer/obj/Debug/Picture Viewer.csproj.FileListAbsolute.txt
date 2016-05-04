@@ -1,0 +1,9 @@
+C:\Users\student\Documents\GitHub\Windows Form - Day3\Picture Viewer\Picture Viewer\bin\Debug\Picture Viewer.exe.config
+C:\Users\student\Documents\GitHub\Windows Form - Day3\Picture Viewer\Picture Viewer\obj\Debug\Picture Viewer.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\Windows Form - Day3\Picture Viewer\Picture Viewer\obj\Debug\Picture_Viewer.Picture_Viewer.resources
+C:\Users\student\Documents\GitHub\Windows Form - Day3\Picture Viewer\Picture Viewer\obj\Debug\Picture_Viewer.Properties.Resources.resources
+C:\Users\student\Documents\GitHub\Windows Form - Day3\Picture Viewer\Picture Viewer\obj\Debug\Picture Viewer.csproj.GenerateResource.Cache
+C:\Users\student\Documents\GitHub\Windows Form - Day3\Picture Viewer\Picture Viewer\bin\Debug\Picture Viewer.exe
+C:\Users\student\Documents\GitHub\Windows Form - Day3\Picture Viewer\Picture Viewer\bin\Debug\Picture Viewer.pdb
+C:\Users\student\Documents\GitHub\Windows Form - Day3\Picture Viewer\Picture Viewer\obj\Debug\Picture Viewer.exe
+C:\Users\student\Documents\GitHub\Windows Form - Day3\Picture Viewer\Picture Viewer\obj\Debug\Picture Viewer.pdb

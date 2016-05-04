@@ -1,0 +1,6 @@
+C:\Users\student\Documents\GitHub\C#\ListBook\ListBook\bin\Debug\ListBook.exe.config
+C:\Users\student\Documents\GitHub\C#\ListBook\ListBook\obj\Debug\ListBook.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\C#\ListBook\ListBook\bin\Debug\ListBook.exe
+C:\Users\student\Documents\GitHub\C#\ListBook\ListBook\bin\Debug\ListBook.pdb
+C:\Users\student\Documents\GitHub\C#\ListBook\ListBook\obj\Debug\ListBook.exe
+C:\Users\student\Documents\GitHub\C#\ListBook\ListBook\obj\Debug\ListBook.pdb
