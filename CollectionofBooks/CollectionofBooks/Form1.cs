@@ -16,7 +16,7 @@ namespace CollectionofBooks
     {
         public static ArrayList ListofBook = new ArrayList();
       
-        class CollectionofBooks 
+        class Book 
         {
             
             string _Title;
@@ -24,10 +24,10 @@ namespace CollectionofBooks
             string _ISBN;
             double _Price;
 
-            public CollectionofBooks()
+            public Book()
             {
             }
-            public CollectionofBooks(string title,string author,string ISBN,double price)
+            public Book(string title,string author,string ISBN,double price)
                 {
                 this._Title = title;
                 this._Author = author;
@@ -55,10 +55,7 @@ namespace CollectionofBooks
                 set { _Price = value; }
             }
 
-            public String toString()
-            {
-                return String.Format("Title: {0}", _Title);
-            }
+          
 
         }
 
@@ -73,18 +70,22 @@ namespace CollectionofBooks
             //rayList<CollectionofBooks> ListofBook = new ArrayList<CollectionofBooks>();
            
 
-            ListofBook.Add(new CollectionofBooks("Principles and Practice Using C++ ", "swati patel", "123-123", 100));
-            ListofBook.Add(new CollectionofBooks("Principles and Java ", "John", "123456798", 100));
+            ListofBook.Add(new Book("Principles and Practice Using C++ ", "swati patel", "123-123", 100));
+            ListofBook.Add(new Book("Principles and Java ", "John", "123456798", 100));
         }
 
         public void DisplayBook()
         {
-            
-            foreach (object obj in ListofBook) 
+
+            //var query = from Book b in ListofBook
+            //            where b.Author.Contains("swati")
+            //            select b;
+          
+            foreach (Book b in ListofBook)
             {
-                Console.WriteLine(obj.);
-                //string[] arr = ((IEnumerable)ListofBook).Cast<object>().Select(x => x.ToString()).ToArray();
-                //label1.Text = string.Join("," , arr );
+                listBox1.DataSource = ListofBook;
+                listBox1.DisplayMember = "Title";
+                label1.Text = b.Author;
             }
         }
 
@@ -92,6 +93,11 @@ namespace CollectionofBooks
         {
             Addbooks();
             DisplayBook();
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

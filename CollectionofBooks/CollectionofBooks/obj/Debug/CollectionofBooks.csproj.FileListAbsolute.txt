@@ -7,3 +7,12 @@ C:\Users\student\Documents\GitHub\All-Work\C#\CollectionofBooks\CollectionofBook
 C:\Users\student\Documents\GitHub\All-Work\C#\CollectionofBooks\CollectionofBooks\obj\Debug\CollectionofBooks.csproj.GenerateResource.Cache
 C:\Users\student\Documents\GitHub\All-Work\C#\CollectionofBooks\CollectionofBooks\obj\Debug\CollectionofBooks.exe
 C:\Users\student\Documents\GitHub\All-Work\C#\CollectionofBooks\CollectionofBooks\obj\Debug\CollectionofBooks.pdb
+C:\Users\student\Documents\GitHub\Work\CollectionofBooks\CollectionofBooks\bin\Debug\CollectionofBooks.exe.config
+C:\Users\student\Documents\GitHub\Work\CollectionofBooks\CollectionofBooks\obj\Debug\CollectionofBooks.exe
+C:\Users\student\Documents\GitHub\Work\CollectionofBooks\CollectionofBooks\obj\Debug\CollectionofBooks.pdb
+C:\Users\student\Documents\GitHub\Work\CollectionofBooks\CollectionofBooks\obj\Debug\CollectionofBooks.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\Work\CollectionofBooks\CollectionofBooks\obj\Debug\CollectionofBooks.Form1.resources
+C:\Users\student\Documents\GitHub\Work\CollectionofBooks\CollectionofBooks\obj\Debug\CollectionofBooks.Properties.Resources.resources
+C:\Users\student\Documents\GitHub\Work\CollectionofBooks\CollectionofBooks\obj\Debug\CollectionofBooks.csproj.GenerateResource.Cache
+C:\Users\student\Documents\GitHub\Work\CollectionofBooks\CollectionofBooks\bin\Debug\CollectionofBooks.exe
+C:\Users\student\Documents\GitHub\Work\CollectionofBooks\CollectionofBooks\bin\Debug\CollectionofBooks.pdb
