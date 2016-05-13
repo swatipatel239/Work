@@ -1,0 +1,64 @@
+﻿@model IEnumerable<MvcMovieDB.Models.Movie>
+@using MvcMovieDB.Models;
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@Html.ActionLink("Create new","Create")
+@using (Html.BeginForm())
+{
+    <p>
+        Gnre : @Html.DropDownList("movieGenre", "All")
+        Title:@Html.TextBox("txtSearch")
+        <input type="submit" value="Search" />
+    </p>
+}
+
+<table class="table">
+    <tr>
+        <td>
+            @Html.DisplayNameFor(model => model.ReleaseDate)
+        </td>
+        <td>
+            @Html.DisplayNameFor(model => model.Price)
+        </td>  
+        <td>
+
+            @Html.DisplayNameFor(model => model.Title)
+        </td>
+
+        <td>
+            @Html.DisplayNameFor(model => model.Genre)
+        </td>
+
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReleaseDate)
+            </td>
+        
+            <td>
+                @Html.DisplayFor(modelItem => item. Price)
+            </td>
+        
+            <td>
+                @Html.DisplayFor(modelItem => item.Genre)
+            </td>
+        
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.ActionLink("Edit","Edit",new { id=item.Id}) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+
+    }
+
+</table>

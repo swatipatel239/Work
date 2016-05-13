@@ -3,6 +3,7 @@ package Day3;
 import sun.plugin.dom.exception.NoModificationAllowedException;
 import sun.text.normalizer.NormalizerBase;
 
+import java.util.Comparator;
 import java.util.Random;
 import java.util.jar.Attributes;
 
@@ -22,6 +23,15 @@ public class Computers implements Product {
     Ram ram;
     DiskDrive disckDrive;
     Double ScreenSize;
+
+    //Creaate Comparator
+
+    public static final Comparator<Computers> by_brand = new Comparator<Computers>() {
+        @Override
+        public int compare(final Computers c1, final Computers c2) {
+            return c1.Brand.compareToIgnoreCase(c2.Brand);
+        }
+    };
 
     public Computers(int ItemNo,double Price, String ProductName, int unitsinStock, String Brand, String Model, Processor Processor,
             Ram ram,
