@@ -1,0 +1,102 @@
+﻿@model OnlineQuize.Login
+
+
+
+@{
+    List<QuestionsDatabase> dq = ViewBag.ass;
+    ViewBag.Title = "QuizeStart";
+}
+@using (Html.BeginForm("QuizeStart", "Home", FormMethod.Post))
+{
+    //CreateForm Tag
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    if (ViewBag.Message != null)
+    {
+        <div style="border:1px solid red">
+            @ViewBag.Message
+        </div>
+    }
+
+<div class="container">
+
+    <!-- Page header -->
+    <div class="page-header">
+        <h2>
+            <small>
+                @if (Session["Usename"] != null)
+                {
+                <text> Welcome @Session["Usename"].ToString()</text>
+                } <code></code>
+        </small>
+    </h2>
+</div>
+<!-- /Page header -->
+<!-- Timeline -->
+<div class="timeline">
+
+    <!-- /Panel -->
+    <!-- Panel -->
+    <article class="panel panel-primary">
+
+        <!-- /Icon -->
+        <!-- Heading -->
+        <div class="panel-heading">
+            <h2 class="panel-title">Online Quize</h2>
+        </div>
+        <br />
+       
+
+        <!-- /Heading -->
+        <table>
+         
+            <tr>
+                <td width="25%"> Online Quize Name</td>
+                <td width="25%">Participant Name </td>
+                <td width="25%">Qutions</td>
+                <td width="25%">Date & Time</td>
+            </tr>
+            <tr>
+                <td width="25%">@Html.LabelFor(a => a.UserName)</td>
+                <td width="25%">@Html.LabelFor(a => a.UserName)</td>
+                <td width="25%">5</td>
+                <td width="25%">@DateTime.Now.ToString("dd-MMM-yyyy")</td>
+            </tr>
+
+            <tr>
+                @*<td width="25%">@Html.RadioButtonFor(dq[1].Questions.ToString(), "Choice1")</td>*@
+                <td width="25%">@Html.LabelFor(a => a.UserName)</td>
+                <td width="25%">5</td>
+                <td width="25%">@DateTime.Now.ToString("dd-MMM-yyyy")</td>
+            </tr>
+        </table>
+        <h2 class="panel-title">
+            
+
+        </h2>
+        <!-- Body -->
+        <div class="panel-body">
+          
+        </div>
+        <!-- /Body -->
+        <!-- Footer -->
+        <div class="panel-footer">
+            <small>
+               
+
+                Keep In Mind: It is important that you click the SUBMIT button every time you access an online assessment. Even if you are just logging on to print the quiz, you must click the submit button. Otherwise you will be locked out of the exam.
+            </small>
+        </div>
+        <!-- /Footer -->
+
+    </article>
+    <!-- /Panel -->
+
+
+</div>
+<!-- /Timeline -->
+</div>
+
+}
+   
+

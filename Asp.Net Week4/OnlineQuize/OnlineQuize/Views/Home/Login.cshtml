@@ -1,0 +1,49 @@
+﻿
+
+@model OnlineQuize.Login
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+@using (Html.BeginForm("Login", "Home", FormMethod.Post))
+{
+    //CreateForm Tag
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    if (ViewBag.Message != null)
+    {
+        <div style="border:1px solid red">
+            @ViewBag.Message
+        </div>
+    }
+                <table >
+                        <tr>
+                            <td>
+                                @Html.LabelFor(a => a.UserName)
+                            </td>
+                            <td>
+                                @Html.TextBoxFor(a => a.UserName)
+                            </td>
+                            <td>
+                                @Html.ValidationMessageFor(a => a.UserName)
+                            </td>
+                        </tr>
+                  
+                <tr>
+                    <td>
+                        @Html.LabelFor(a => a.Password)
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(a => a.Password)
+                    </td>
+                    <td>
+                        @Html.ValidationMessageFor(a => a.Password)
+                    </td>
+                </tr>
+                <tr><td colspan="3"><input id="btnLogin" type="submit" value="Login" /></td></tr>
+               
+            </table>
+          
+            }

@@ -1,0 +1,78 @@
+﻿@model OnlineQuize.Login
+
+@{
+    ViewBag.Title = "AfterLogin";
+}
+
+<h2>AfterLogin</h2>
+@using (Html.BeginForm("QuizeStart", "Home", FormMethod.Post))
+{
+
+
+
+<div class="container">
+
+    <!-- Page header -->
+    <div class="page-header">
+        <h2> <small>@if (Session["Usename"] != null)
+        {
+            <text> Welcome @Session["Usename"].ToString()</text>
+        } <code></code></small></h2>
+    </div>
+    <!-- /Page header -->
+    <!-- Timeline -->
+    <div class="timeline">
+
+
+
+        <!-- /Panel -->
+        <!-- Panel -->
+        <article class="panel panel-primary">
+
+          
+            <!-- /Icon -->
+            <!-- Heading -->
+            <div class="panel-heading">
+                <h2 class="panel-title">Please read carefully all instructions</h2>
+            </div>
+            <!-- /Heading -->
+            <!-- Body -->
+            <div class="panel-body">
+                <ul><li>
+    Step 1. Check Your Browser Options before the Test to ensure that it is not set to disconnect after several minutes of inactivity.
+
+    * The location of this setting depends on your browser. For example, in Internet Explorer 5, 6, 7 & 8 it is located under Tools>Internet Options>Connections>Settings> Advanced
+    * If you have an Internet Service Provider that will break your connection if you don.t visit a new site after a certain period of time, then keep another window open and occasionally visit it and load a new page or refresh the page to keep your connection open.
+</li>    </ul>
+               <ul ><li>
+    Step 2. Do Not Use the "Back" Button on Your Browser During the Test once you have begun taking the quiz. Instead, use the scroll bar to move back to check earlier questions.
+    Don't close the window of the test for any reason.If something goes wrong, send an e-mail to your professor immediately, documenting the exact problem and asking how you should proceed. Include your username and the course and section number.
+</li></ul>
+                
+                <ul><li>
+    Step 3. Review All of Your Answers Before Submitting the Quiz. Make sure you have not accidentally changed your response to a question or made a typographic mistake.
+</li>  </ul>
+                <ul><li>
+    Step 4. When you are satisfied with the result make sure you finish by clicking the SUBMIT button at the bottom of the screen. Click the Submit Button ONLY ONCE!
+    After you submit the test answers, you will receive a score unless you have exceeded the time limit for the quiz.
+</li>  </ul>
+              <div><input type="submit" value="Start Quize" /></div>
+            </div>
+            <!-- /Body -->
+            <!-- Footer -->
+            <div class="panel-footer">
+                <small>  To Check Your Grades: Click "Student Tools" then "Check your grade". You will see only your grades.
+
+                Keep In Mind: It is important that you click the SUBMIT button every time you access an online assessment. Even if you are just logging on to print the quiz, you must click the submit button. Otherwise you will be locked out of the exam.</small>
+            </div>
+            <!-- /Footer -->
+
+        </article>
+        <!-- /Panel -->
+       
+
+    </div>
+    <!-- /Timeline -->
+</div>
+
+}
